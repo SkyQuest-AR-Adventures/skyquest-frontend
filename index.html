@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyQuest AR Uygulaması</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="container">
+            <img src="images/logo.webp" alt="Hazine Avcısı Logo" class="logo">
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link">Ana Sayfa</a>
+                <a href="#story" class="nav-link">Hikaye</a>
+                <a href="#contact" class="nav-link">İletişim</a>
+            </nav>
+            <div class="auth-buttons ">
+                <button class="btn btn-primary small-btn" onclick="openLogin()">Giriş Yap</button>
+                <button class="btn btn-secondary small-btn" onclick="openRegister()">Kayıt Ol</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ANA SAYFA -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="hero-title">Hazine Avcısı AR Uygulamasına Hoş Geldiniz!</h1>
+            <p class="hero-text">Gerçek dünyada hazine avına çıkmaya hazır mısınız? AR teknolojisiyle macerayı yaşayın!</p>
+            <a href="#story" class="btn btn-primary">Oyun Başlasın</a>
+        </div>
+    </section>
+
+    <!-- HİKAYE -->
+    <section id="story" class="story">
+        <div class="container">
+            <h2>Hikaye</h2>
+            <p>Dedelerinin eski evinde yaşayan Güneş ve Doruk, gizemli bir hazine avına çıkıyor. AR deneyimiyle hikayeyi canlandırın ve bu büyülü maceraya katılın!</p>
+            <img src="images/game.webp" alt="Hazine Avcısı Hikayesi" class="story-image">
+        </div>
+    </section>
+
+    <!-- GİRİŞ MODALI -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('loginModal')">&times;</span>
+            <h2>Giriş Yap</h2>
+            <form class="auth-form">
+                <input type="email" placeholder="E-posta Adresiniz" class="form-input" required>
+                <input type="password" placeholder="Şifreniz" class="form-input" required>
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox"> Beni Hatırla
+                    </label>
+                    <a href="#" class="forgot-password">Şifremi Unuttum</a>
+                </div>
+                <button type="submit" class="btn btn-primary">Giriş Yap</button>
+                <div class="divider">veya</div>
+                <button type="button" class="btn btn-google">
+                    <img src="images/google.png" alt="Google Icon"> Google ile Giriş Yap
+                </button>
+                <button type="button" class="btn btn-facebook">
+                    <img src="images/facebook.png" alt="Facebook Icon"> Facebook ile Giriş Yap
+                </button>
+                <button type="button" class="btn btn-X">
+                    <img src="images/X.png" alt="Twitter Icon"> X ile Giriş Yap
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- KAYIT MODALI -->
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('registerModal')">&times;</span>
+            <h2>Kayıt Ol</h2>
+            <form class="auth-form">
+                <input type="text" placeholder="Adınız" class="form-input" required>
+                <input type="email" placeholder="E-posta Adresiniz" class="form-input" required>
+                <input type="password" placeholder="Şifre Oluşturun" class="form-input" required>
+                <input type="password" placeholder="Şifre Tekrarı" class="form-input" required>
+                <button type="submit" class="btn btn-secondary">Kayıt Ol</button>
+                <div class="divider">veya</div>
+                <button type="button" class="btn btn-google">
+                    <img src="images/google.png" alt="Google Icon"> Google ile Giriş Yap
+                </button>
+                <button type="button" class="btn btn-facebook">
+                    <img src="images/facebook.png" alt="Facebook Icon"> Facebook ile Giriş Yap
+                </button>
+                <button type="button" class="btn btn-X">
+                    <img src="images/X.png" alt="Twitter Icon"> X ile Giriş Yap
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- İLETİŞİM -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>İletişim</h2>
+            <p>Uygulama hakkında bilgi almak için bizimle iletişime geçin.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Adınız" class="form-input" required>
+                <input type="email" placeholder="E-posta Adresiniz" class="form-input" required>
+                <textarea placeholder="Mesajınız" class="form-textarea" required></textarea>
+                <button type="submit" class="btn btn-primary">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2024 Hazine Avcısı AR. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Modalları açma ve kapama fonksiyonları
+        function openLogin() {
+            document.getElementById('loginModal').style.display = 'block';
+        }
+
+        function openRegister() {
+            document.getElementById('registerModal').style.display = 'block';
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = 'none';
+        }
+    </script>
+</body>
+</html>
