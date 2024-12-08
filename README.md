@@ -8,8 +8,8 @@ SkyQuest'in ana amacı, çocuklar için uçuş sırasında etkileşimli ve eğit
 ## Proje Kapsamı
 SkyQuest uygulaması, çocuklara özel bir uçak içi eğlence sistemidir. Oyun, "Hazine Avcısı" hikayesi üzerinden ilerler. Çocuklar uçuş boyunca ipuçlarını arar, bulmacaları çözer ve ödüller kazanır. Uygulama, iOS ve Android cihazlarında çalışacak şekilde tasarlanacaktır.
 ## Proje Dokümantasyonu
-[Dokümantasyon=>](https://docs.google.com/document/d/1KFo4qNUuBomJV03pZITpiXba7M-ICMZD-8RfywSV00c/edit?tab=t.0)
-[SkyQuest Site Linki =>](https://skyquest-ar-adventures.github.io/skyquest-frontend/)
-[Trello Link=>](https://trello.com/b/S25ggJGN/skyquest-ar-adventures)
+[Dokümantasyon](https://docs.google.com/document/d/1KFo4qNUuBomJV03pZITpiXba7M-ICMZD-8RfywSV00c/edit?tab=t.0)
+[SkyQuest Site Linki](https://skyquest-ar-adventures.github.io/skyquest-frontend/)
+[Trello Link](https://trello.com/b/S25ggJGN/skyquest-ar-adventures)
 
 
