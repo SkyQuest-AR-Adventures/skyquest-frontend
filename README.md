@@ -11,5 +11,7 @@ SkyQuest uygulaması, çocuklara özel bir uçak içi eğlence sistemidir. Oyun,
 [Dokümantasyon](https://docs.google.com/document/d/1KFo4qNUuBomJV03pZITpiXba7M-ICMZD-8RfywSV00c/edit?tab=t.0)
 [SkyQuest Site Linki](https://skyquest-ar-adventures.github.io/skyquest-frontend/)
 [Trello Link](https://trello.com/b/S25ggJGN/skyquest-ar-adventures)
+[Tetikleyici Resim](/images/logo.png)
+
 
 
