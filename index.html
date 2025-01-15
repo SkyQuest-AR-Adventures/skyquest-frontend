@@ -11,16 +11,20 @@
     <!-- HEADER -->
     <header class="main-header">
         <div class="container">
-            <img src="images/logo.webp" alt="Hazine Avcısı Logo" class="logo">
-            <nav class="nav-menu">
-                <a href="#home" class="nav-link">Ana Sayfa</a>
-                <a href="#story" class="nav-link">Hikaye</a>
-                <a href="#contact" class="nav-link">İletişim</a>
+           
+            <nav class="nav-menu ">
+                <img src="images/logo.png" alt="Hazine Avcısı Logo" class="logo">
+                <div>
+                    <a href="#home" class="nav-link">Ana Sayfa</a>
+                    <a href="#story" class="nav-link">Hikaye</a>
+                    <a href="#contact" class="nav-link">İletişim</a>
+                    <button class="btn btn-primary small-btn" onclick="openLogin()">Giriş Yap</button>
+                    <button class="btn btn-secondary small-btn" onclick="openRegister()">Kayıt Ol</button>
+                </div>
+                
+                
             </nav>
-            <div class="auth-buttons ">
-                <button class="btn btn-primary small-btn" onclick="openLogin()">Giriş Yap</button>
-                <button class="btn btn-secondary small-btn" onclick="openRegister()">Kayıt Ol</button>
-            </div>
+            
         </div>
     </header>
 
@@ -37,8 +41,10 @@
     <section id="story" class="story">
         <div class="container">
             <h2>Hikaye</h2>
-            <p>Dedelerinin eski evinde yaşayan Güneş ve Doruk, gizemli bir hazine avına çıkıyor. AR deneyimiyle hikayeyi canlandırın ve bu büyülü maceraya katılın!</p>
-            <img src="images/game.webp" alt="Hazine Avcısı Hikayesi" class="story-image">
+            <p>Dedelerinin eski evine taşınan Güneş ve Doruk, gizemli bir hazine avına çıkıyor. AR deneyimiyle hikayeyi canlandırın ve bu büyülü maceraya katılın!</p>
+            <a href="game.html">
+                <img src="images/game.png" alt="Hazine Avcısı Hikayesi" class="story-image">
+            </a>
         </div>
     </section>
 
@@ -98,8 +104,8 @@
     <!-- İLETİŞİM -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>İletişim</h2>
-            <p>Uygulama hakkında bilgi almak için bizimle iletişime geçin.</p>
+            <h1 class="contact-title">İletişim</h2>
+            <p class="contact-text"> Uygulama hakkında bilgi almak için bizimle iletişime geçin.</p>
             <form class="contact-form">
                 <input type="text" placeholder="Adınız" class="form-input" required>
                 <input type="email" placeholder="E-posta Adresiniz" class="form-input" required>
